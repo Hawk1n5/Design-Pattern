@@ -52,7 +52,7 @@ puts "-----duck1------"
 duck1 = RedDuck.new()
 duck1.fly()
 duck1.quack()
-duck1.quackBehavior = NoneQuack.new()
+duck1.quackBehavior = Quack.new()
 duck1.quack()
 puts "-----duck2------"
 duck2 = BlueDuck.new()
