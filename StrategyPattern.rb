@@ -43,7 +43,11 @@ class BlueDuck < Duck
     super(FlyNoWay.new(), Quack.new())
   end
 end
-
+class RedDuck < Duck
+  def initialize()
+    super(FlyWithWins.new(), NoneQuack.new())
+  end
+end
 puts "-----duck1------"
 duck1 = RedDuck.new()
 duck1.fly()
